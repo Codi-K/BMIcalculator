@@ -26,7 +26,7 @@ calculate.addEventListener("click", ()=>{
     else if((BMI >= 25) && (BMI <= 29.9)){
         text.innerText = "You are Overweight 😐"; result.style.color = "orangered"; text.style.color  = "orangered";
     }
-    else if(BMI < 30){
+    else{
         text.innerText = "You are Obese 😡"; result.style.color = "red"; text.style.color  = "red";
     } 
     if((BMI > 18.5) && (BMI <= 24.9)){
@@ -37,10 +37,7 @@ calculate.addEventListener("click", ()=>{
         divTag.appendChild(img)
     // image.innerHTML += `<img scr="../2x.gif" alt="heathly guy"></img>`;
     }
-    else {
-        text.innerText = null;
 
-    }
 });
 
 // Clear button 
